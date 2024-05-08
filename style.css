@@ -1,0 +1,120 @@
+body {
+    display: grid;
+    background: url(./images/bg-intro-desktop.png);
+    background-color: rgb(255, 122, 122);
+    background-size: 100%;
+    height: 100vh;
+    place-items: center;
+    font-size: 16px;
+    font-family: "Poppins";
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: papayawhip;
+}
+
+input {
+    width: 82%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.151);
+    padding-left: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.advert p {
+    color: papayawhip;
+}
+
+.inputs p {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    opacity: 0.3;
+    font-weight: 1000;
+    color: gray;
+}
+
+.advert {
+    margin-top: -70px;
+    margin-right: 60px;
+}
+
+.center-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70rem;
+    height: 40rem;
+    align-items: center;
+}
+
+.try-free {
+    height: 50px;
+    background-color: rgb(96, 85, 165);
+    width: 100%;
+    margin-bottom: 20px;
+    color: papayawhip;
+    border-radius: 10px;
+    box-shadow: 0 7px 0 0 rgba(96, 85, 165, 0.329);
+    font-size: 16px;
+    align-content: center;
+    text-align:center;
+}
+
+.bolded {
+    font-weight: 800;
+}
+
+.inputs {
+    width: 560px;
+    background-color: white;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.first-input {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+
+.claim {
+    height: 50px;
+    background-color: rgb(56, 204, 140);
+    width: 87%;
+    color: papayawhip;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-color: transparent;
+    font-weight: 600;
+}
+
+.error {
+    background: url(/images/icon-error.svg) no-repeat;
+    background-position: 98%;
+}
+
+.warning {
+    display: none;
+    font-style: oblique;
+    font-size: 11px;
+    color: red;
+    margin-top: 10px;
+    width: 85%;
+    text-align-last: right;
+}
